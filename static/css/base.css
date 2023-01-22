@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url('/media/gradientbackground.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    color: #555;
+    font-family: 'Gorditas', cursive;
+    padding-top: 70px;
+}
+
+.logo {
+    color:black;
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.search-box{
+    background-color:rgba(0,0,0,0) !important;
+    border-top:none !important;
+    border-right:none !important;
+    border-left:none !important;
+}
+
+.search-btn{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+}
+
+.red{
+    color:red !important;
+}
