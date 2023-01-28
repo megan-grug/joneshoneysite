@@ -23,6 +23,11 @@ body {
     width: 2rem;
 }
 
+/* ensures the increment/decrement arrows always display */
+input{
+    opacity: 1;
+  }
+
 
 .shop-now-button {
     background: black;
