@@ -35,11 +35,36 @@ body {
     border-left:none !important;
 }
 
+.search-input{
+    color: black !important;
+    border-color: black !important;
+}
+
+
+.search-input::-webkit-input-placeholder {
+    color: black !important;
+  }
+
 .search-btn{
     background-color:rgba(0,0,0,0) !important;
     border:none !important;
 }
 
-.red{
-    color:red !important;
+.text-black{
+    color:black !important;
+}
+
+.darkheather{
+    background-color: #635271;
+}
+
+.heather{
+    background-color: #a693b5;
+}
+
+.hero-image {
+    background: url(/media/daisies.jpg);
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
 }

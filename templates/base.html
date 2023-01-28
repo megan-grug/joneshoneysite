@@ -45,10 +45,10 @@
 
     {% block page_header %}
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-light darkheather fixed-top">
       <div class="container">
           <h1 class="pb-2 ml-md-0 ml-sm-3 ml-0 mr-3">
-            <a href="#">
+            <a href="{% url 'home' %}">
              <!--<img class="icon" src="/media/bee.png"> --> 
               <p class="logo">JONES</p>
               <p class="logo">HONEY</p>
@@ -107,11 +107,11 @@
                           {% endif %}
                   </div>
                   </li>
-                  <li class="nav-item">
-                    <form method="GET" action="#" class="d-flex flex-column align-items-center">
-                      <input class="search-box" type="text" name="q" placeholder="Type to search" aria-label="Search">
-                      <div><i class="fa-solid fa-magnifying-glass fa-lg red" id="basic-addon1" type="submit"></i></div>
-                      <button type="button">Search</button>
+                  <li class="nav-item text-black">
+                    <form method="GET" action="#" class="d-flex flex-column align-items-center text-black">
+                      <input class="search-box text-black search-input" type="text" name="q" placeholder="Type to search" aria-label="Search">
+                      <div><i class="fa-solid fa-magnifying-glass fa-lg" id="basic-addon1" type="submit"></i></div>
+                      <button class="search-btn" type="button">Search</button>
                     </form>
                   </li>
                   <li class="nav-item">
