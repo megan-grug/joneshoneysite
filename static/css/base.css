@@ -10,6 +10,10 @@ body {
     font-family: 'Gorditas', cursive;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 .logo {
     color:black;
 }
@@ -76,8 +80,26 @@ input{
     border:none !important;
 }
 
+.btn-circle {
+    width: 75px;
+    height: 75px;
+    padding: 13px 18px;
+    border-radius: 60px;
+    font-size: 15px;
+    text-align: center;
+    background-color:rgba(92, 90, 90, 0.61);
+}
+
+.btn-circle:hover{
+    background-color:rgba(49, 48, 48, 0.61);
+}
+
 .text-black{
     color:black !important;
+}
+
+.bg-grey{
+    background-color:rgba(49, 48, 48, 0.61);
 }
 
 .darkheather{
@@ -86,6 +108,10 @@ input{
 
 .heather{
     background-color: #a693b5;
+}
+
+.sunset{
+    background-color:#da7c46cc;
 }
 
 #message-banner{

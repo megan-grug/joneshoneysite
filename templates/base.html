@@ -128,7 +128,7 @@
             </div>
           </nav>
           
-          <div id="message-banner" class="row text-center mx-0">
+          <div id="message-banner" class="row text-center mx-0 py-1">
             <div class="col bg-black text-white">
                 <h4 class="logo-font my-1">Free shipping with all orders over £{{ free_delivery_threshold }}!</h4>
             </div>
@@ -145,6 +145,29 @@
 
     {% block content %}
     {% endblock %}
+
+    <footer id="footer" class="sunset text-black d-flex-column text-center py-3 my-5">
+      <div class="text-center container-fluid">
+        <h4 class="mb-2">Follow our Journey</h4>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#" title="Facebook">
+              <i class="fab fa-facebook-square fa-2x text-black"></i>
+            </a>
+          </li>
+          <li class="list-inline-item text-black">
+            <a href="#" title="Twitter">
+              <i class="fab fa-instagram-square fa-2x text-black mx-2"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" title="Youtube">
+              <i class="fab fa-youtube-square fa-2x text-black"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
     {% block post_load_js %}
     {% endblock %}
