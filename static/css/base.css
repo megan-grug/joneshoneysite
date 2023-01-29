@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    font-size: 16px;
 }
 
 body {
@@ -80,6 +81,18 @@ input{
     border:none !important;
 }
 
+.category-badge{
+    border-style:solid;
+    border-width:1px;
+    border-color:#222;
+    padding:5px;
+    border-radius: 7px;
+}
+
+.category-badge:hover{
+    background-color:rgba(49, 48, 48, 0.61);
+}
+
 .btn-circle {
     width: 75px;
     height: 75px;
@@ -100,6 +113,14 @@ input{
 
 .text-darker{
     color: rgb(36, 36, 36) !important;
+}
+
+.white-hover:hover{
+    color:whitesmoke !important;
+}
+
+.grey-hover:hover{
+    color:rgb(44, 44, 44) !important;
 }
 
 .bg-grey{

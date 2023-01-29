@@ -2,30 +2,30 @@
 {% load static %}
 
 {% block content %}
-<div class="container-fluid p-0">
+<div class="container-fluid">
     <div class="row text-center bg-grey text-black  p-4">
         <div class="col col-md-2 text-black">
-            <a href="{% url 'products' %}" class="dropdown-toggle text-black">
+            <a href="{% url 'products' %}" class="dropdown-toggle text-black white-hover">
                 All Products
             </a>
         </div>
         <div class="col col-md-2 text-black">
-            <a href="{% url 'products' %}?category=honey" class="text-black">
+            <a href="{% url 'products' %}?category=honey" class="text-black white-hover">
                 Honey
             </a>
         </div>
         <div class="col col-md-2 text-black">
-            <a class="text-black" href="{% url 'products' %}?category=accessories">
+            <a class="text-black white-hover" href="{% url 'products' %}?category=accessories">
                 Accessories
             </a>
         </div>
         <div class="col col-md-2 text-black">
-            <a class="text-black" href="{% url 'products' %}?category=courses">
+            <a class="text-black white-hover" href="{% url 'products' %}?category=courses">
                 Courses
             </a>
         </div>
         <div class="col col-md-2 text-black">
-            <a class="text-black" href="{% url 'products' %}?category=vouchers">
+            <a class="text-black white-hover" href="{% url 'products' %}?category=vouchers">
                 Gift Vouchers
             </a>
         </div>
@@ -34,13 +34,13 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col text-center mt-3">
+        <div class="col text-center my-3">
             <a href="{% url 'products' %}">
-                <h2 class="logo-font text-darker my-3">Products</h2>
+                <h2 class="logo-font text-darker white-hover my-3">Products</h2>
             </a>
             {% for c in current_categories %}
                 <a class="category-badge text-muted" href="{% url 'products' %}?category={{ c.name }}">
-                    <span class="p-2 mt-2 badge badge-white text-black rounded-0 border border-dark">{{ c.friendly_name }}</span>
+                    <span class="p-2 mt-2 text-darker">{{ c.friendly_name }}</span>
                 </a>
             {% endfor %}
         </div>
