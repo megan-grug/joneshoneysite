@@ -98,6 +98,10 @@ input{
     color:black !important;
 }
 
+.text-darker{
+    color: rgb(36, 36, 36) !important;
+}
+
 .bg-grey{
     background-color:rgba(49, 48, 48, 0.61);
 }
