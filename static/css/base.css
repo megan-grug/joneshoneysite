@@ -7,7 +7,6 @@ body {
     background: url('/media/gradientbackground.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
     font-family: 'Gorditas', cursive;
 }
 
@@ -43,6 +42,10 @@ input{
 .btn-black {
     background: black;
     color: white;
+}
+
+.btn:disabled{
+    opacity: 1 !important;
 }
 
 .shop-now-button:hover,
