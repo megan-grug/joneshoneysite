@@ -93,6 +93,7 @@
 {% endblock %}
 
 
-{% block postloadjs %}
+{% block post_load_js %}
 {{ block.super }}
+{% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
