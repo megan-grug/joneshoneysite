@@ -84,6 +84,10 @@ input{
     border:none !important;
 }
 
+.bag-links{
+    cursor: pointer;
+}
+
 .category-badge{
     border-style:solid;
     border-width:1px;
