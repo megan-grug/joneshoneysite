@@ -1,0 +1,1 @@
+web: gunicorn joneshoneysite.wsgi.application
